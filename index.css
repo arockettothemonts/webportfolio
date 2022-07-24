@@ -6,115 +6,36 @@
 }
 
 html {
-	height: 100%;
-	overflow: hidden;
-}
-
-body {
-	background-color: orange;
 	scroll-behavior: smooth;
 }
 
-.slide {
-	height: 100%;
-	width: 90px;
-	position: absolute;
-	transition: 0.5s ease;
-	transform: translateX(-180px);
+body {
+	background-image: url(https://images.unsplash.com/photo-1591625677777-ae053aef58ff?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8cHVycGxlJTIwY2xvdWRzfGVufDB8fDB8fA%3D%3D&w=1000&q=80);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	overflow-x: hidden;
 }
 
-h4 {
-	font-weight: 800;
-	text-align: right
-	;
-	padding: 10px 0;
-	padding-right: 10px;
-	pointer-events: none;
+#navbar {
+	background-color: mediumpurple;
 }
 
-ul li a {
-	font-weight: 700;
-	display: block;
-	transition: 0.2s ease-out;
+#navdropdown ul li:hover {
+	background: #f1e8e6;
+	color:  #361d32;
+	transition: all 0.3s;
+	border-radius: 100px;
 }
 
-ul li a i {
-	width: 40px;
-	padding: 10px;
+#landingpage {
+	background-color: mediumpurple;
 }
 
-ul li:hover a {
-	color: white;
-	background-color: black;
-
+#gallery {
+	background-color: mediumpurple;
 }
 
-input {
-	display: none;
-	visibility: hidden;
-	-webkit-appearance: none;
-}
-
-.toggle {
-	position: absolute;
-	height: 30px;
-	width: 30px;
-	top: 20px;
-	left: 10px;
-	z-index: 1;
-	cursor: pointer;
-	border-radius: 2px;
-	background-color: lightblue;
-	box-shadow: 0 0 10px rgba(0,0,0,0.3);
-}
-
-.toggle .common {
-	position: absolute;
-	height: 2px;
-	width: 20px;
-	background-color: black;
-	border-radius: 50px;
-	transition: 0.3s ease;
-}
-
-.toggle .top_line {
-	top: 30%;
-	left: 50%;
-	transform: translate(-50%,-50%);
-}
-
-.toggle .middle_line {
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%,-50%);
-}
-
-.toggle .bot_line {
-	top: 70%;
-	left: 50%;
-	transform: translate(-50%,-50%);
-}
-
-input:checked ~ .toggle .top_line {
-	left: 2px;
-	top: 14px;
-	width: 25px;
-	transform: rotate(45deg);
-}
-
-input:checked ~ .toggle .middle_line {
-	left: 2px;
-	top: 14px;
-	width: 25px;
-	transform: rotate(-45deg);
-}
-
-input:checked ~ .toggle .bot_line {
-	opacity: 0;
-	transform: translateX(20px);
-}
-
-input:checked ~ .slide {
-	transform: translateX(0);
-	box-shadow: 0 0 15px rgba(0,0,0,0.5);
+#message_sec {
+	background-color: #F6C042;
 }
