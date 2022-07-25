@@ -24,8 +24,9 @@ body {
 #navdropdown ul li:hover {
 	background: #f1e8e6;
 	color:  #361d32;
-	transition: all 0.3s;
+	transition: all 0.5s;
 	border-radius: 100px;
+	transform: rotate(360deg);
 }
 
 section #landingpage {
@@ -38,6 +39,7 @@ section #landingpage {
 
 #header1 h1 {
 	font-size: 70px;
+	font-family: 'Roboto', sans-serif;
 }
 
 h1 span {
@@ -55,15 +57,12 @@ p span {
 
 #about_header h1 {
 	font-size: 70px;
+	font-family: 'Roboto', sans-serif;
 	font-weight: bolder;
 }
 
 #about_par {
 	font-size: 18.5px;
-}
-
-#about_img {
-
 }
 
 #gallery {
@@ -72,10 +71,21 @@ p span {
 
 #carousel_title h1 {
 	font-size: 50px;
+	font-family: 'Roboto', sans-serif;
 	font-weight: bolder;
 }
 
 #contact {
 	background-color: #F6C042;
 	font-weight: bolder;
+}
+
+#message_sec {
+	font-family: 'Roboto', sans-serif;
+}
+
+#footer_icons a:hover {
+	transition: all 0.7s;
+	border-radius: 100px;
+	transform: rotate(360deg);
 }
