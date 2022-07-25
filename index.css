@@ -28,14 +28,54 @@ body {
 	border-radius: 100px;
 }
 
-#landingpage {
-	background-color: mediumpurple;
+section #landingpage {
+	background-image: url(./images/ian.jpg);
+	background-size: 100%;
+	min-height: 100vh;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+#header1 h1 {
+	font-size: 70px;
+}
+
+h1 span {
+	margin-left: 1rem;
+	margin-right: 1rem;
+	font-weight: bolder;
+}
+
+p span {
+	font-size: 20px;
+	margin-left: 7rem;
+	margin-right: 7rem;
+	font-weight: bold;
+}
+
+#about_header h1 {
+	font-size: 70px;
+	font-weight: bolder;
+}
+
+#about_par {
+	font-size: 18.5px;
+}
+
+#about_img {
+
 }
 
 #gallery {
 	background-color: mediumpurple;
 }
 
-#message_sec {
+#carousel_title h1 {
+	font-size: 50px;
+	font-weight: bolder;
+}
+
+#contact {
 	background-color: #F6C042;
+	font-weight: bolder;
 }
